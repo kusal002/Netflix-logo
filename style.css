@@ -4,8 +4,25 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
+  background: rgb(147,2,15);
+background: linear-gradient(90deg, rgba(147,2,15,1) 0%, rgb(2, 2, 81) 15%, rgb(2, 0, 20) 23%, rgba(1,17,25,1) 74%, rgb(2, 2, 97) 89%, rgba(167,2,14,1) 100%);
 }
 
+button {
+  /* height: 200px;
+  width: 200px; */
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+h1{
+  font-size: 120px;
+  color: rgb(133, 130, 130);
+}
+h1:hover{
+  color: whitesmoke;
+}
 #container {
   display: flex;
   /* flex-direction: row;
@@ -15,11 +32,11 @@ body {
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: #000000;
   overflow: hidden;
 }
 #container netflixintro {
-  display: block;
+  display: none;
+  /* display: block; */
   position: relative;
   width: 300px;
   height: 300px;

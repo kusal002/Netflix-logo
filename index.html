@@ -5,11 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Intro Animation</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
 </head>
 
 <body>
+
     <div id="container">
+        <div id="buttons">
+
+            <button class="word-btn" value="N">
+                <h1 class="N">N</h1>
+            </button>
+            <button class="word-btn" value="E">
+                <h1 class="E">E</h1>
+            </button>
+            <button class="word-btn" value="T">
+                <h1 class="T">T</h1>
+            </button>
+            <button class="word-btn" value="F">
+                <h1>F</h1>
+            </button>
+            <button class="word-btn" value="L">
+                <h1 class="L">L</h1>
+            </button>
+            <button class="word-btn" value="I">
+                <h1 class="I">I</h1>
+            </button>
+            <button class="word-btn" value="X">
+                <h1 class="X">X</h1>
+            </button>
+        </div>
 
         <!-- Edit the letter attr to: N, E, T, F, L, I or X -->
         <netflixintro letter="N">
@@ -185,10 +211,10 @@
             </div>
 
         </netflixintro>
-        <audio id="netflix-sound" src="netflix.mp3" preload="auto"></audio>
+
+        <audio id="netflix-sound" src="./netflix.mp3"></audio>
     </div>
 
-    <script src="app.js"></script>
 </body>
 
 </html>
